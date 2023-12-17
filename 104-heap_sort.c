@@ -11,9 +11,11 @@ void heap_sort(int *array, size_t size);
  */
 void swap_ints(int *a, int *b)
 {
-	int temp = *a;
+	int tmp;
+
+	tmp = *a;
 	*a = *b;
-	*b = temp;
+	*b = tmp;
 }
 
 /**
